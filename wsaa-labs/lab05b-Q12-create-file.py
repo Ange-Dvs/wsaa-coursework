@@ -6,8 +6,8 @@ from config import config as cfg
 apiKey = cfg['githubkey']
 repo_owner = 'Ange-Dvs'
 repo_name = 'aprivateone'
-file_path = 'new_test_file2.txt'  # The file path in the repo
-file_content = 'This is another new file created via the GitHub API' 
+file_path = 'sample_file_for_assignment04.txt'  # The file path in the repo
+file_content = 'This text was generated using ChatGPT to form the baseline for the file to be updated. Andrew had always been a curious child. Ever since he was young, Andrew would spend hours exploring the woods behind his house, searching for hidden treasures. One day, Andrew stumbled upon an old notebook buried beneath a pile of leaves. Inside, Andrew found strange symbols and messages, as if someone had been keeping secrets for years. Determined to uncover the mystery, Andrew spent days deciphering the notes. "Andrew, this could be the greatest discovery of your life," he muttered to himself. But Andrew realized that the final page was missing. Frustrated but not discouraged, Andrew turned to his best friend, who laughed and said, "Andrew, you always find yourself in the weirdest situations!" Together, they embarked on a mission to solve the mystery, that would lead them to the truth.' 
 
 encoded_content = base64.b64encode(file_content.encode()).decode() # encoding the file content set in the variable above in Base64 format as this is required for GitHub when using the API. .encode() converts the text of the file to bytes, base64.b64encode() converts the bytes to Base64 format, decode() then conversts the base64 bytes into a string which is needed from the API 
 
