@@ -1,5 +1,5 @@
 # wsaa-coursework
-
+This repository is for the Web Services and Applications module It contains two folders, one containing the assignments and another containing the labs.
 
 ## Assignment resources
 ## Assignments
@@ -7,7 +7,7 @@ The main coursework assignments are documented in the [wsaa-assignments README](
 
 ## labs 
 
-## Lab05 
+### Lab05 
 - GitHub API – Create or Update File: https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
 - Article on importing and exporting files to GitHub via API (using PyGithub): https://medium.com/plumbersofdatascience/import-and-export-files-to-and-from-github-via-api-626efd7dd859 
 - Base64 encoding returns bytes: https://docs.python.org/3/library/base64.html#base64.b64encode
